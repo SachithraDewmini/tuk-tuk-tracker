@@ -1,0 +1,8 @@
+{"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:01:06.510Z"}
+{"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:05:45.478Z"}
+{"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:08:35.211Z"}
+{"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:14:30.483Z"}
+{"level":"error","message":"500 - Invalid credentials - /api/auth/login - POST - ::1","timestamp":"2026-04-25T16:14:48.089Z"}
+{"level":"error","message":"500 - Invalid credentials - /api/auth/login - POST - ::1","timestamp":"2026-04-25T16:14:53.600Z"}
+{"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:19:01.065Z"}
+{"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:23:13.637Z"}
