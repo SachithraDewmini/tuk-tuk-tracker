@@ -39,6 +39,26 @@ class DistrictModel {
     const result = await collection.insertOne(district);
     return { ...district, _id: result.insertedId };
   }
+
+  static async update(id, districtData) {
+    const collection = this.getCollection();
+    const updateData = { ...districtData };
+    if (updateData.provinceId) {
+      updateData.provinceId = new ObjectId(updateData.provinceId);
+    }
+    
+    const result = await collection.updateOne(
+      { _id: new ObjectId(id) },
+      { $set: { ...updateData, updatedAt: new Date() } }
+    );
+    return result.modifiedCount > 0;
+  }
+  
+  static async delete(id) {
+    const collection = this.getCollection();
+    const result = await collection.deleteOne({ _id: new ObjectId(id) });
+    return result.deletedCount > 0;
+  }
 }
 
 module.exports = DistrictModel;

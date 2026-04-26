@@ -23,6 +23,13 @@ const options = {
         },
       },
     },
+    tags: [
+      { name: 'Auth', description: 'Authentication management' },
+      { name: 'Vehicles', description: 'Vehicle asset management' },
+      { name: 'Users', description: 'User account management (HQ only)' },
+      { name: 'Locations', description: 'Real-time tracking and history' },
+      { name: 'Metadata', description: 'Administrative data (Provinces, Districts, Stations)' }
+    ]
   },
   apis: ['./src/routes/*.js'],
 };

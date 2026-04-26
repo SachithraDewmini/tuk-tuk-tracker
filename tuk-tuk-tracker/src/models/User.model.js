@@ -62,6 +62,47 @@ class UserModel {
     
     return result.modifiedCount > 0;
   }
+
+  static async findAll(filters = {}) {
+    const collection = this.getCollection();
+    const query = {};
+    
+    if (filters.role) query.role = filters.role;
+    if (filters.provinceId) query.provinceId = new ObjectId(filters.provinceId);
+    if (filters.districtId) query.districtId = new ObjectId(filters.districtId);
+    if (filters.isActive !== undefined) query.isActive = filters.isActive;
+    
+    return await collection.find(query).sort({ username: 1 }).toArray();
+  }
+  
+  static async update(id, userData) {
+    const collection = this.getCollection();
+    const updateData = { ...userData };
+    
+    if (updateData.password) {
+      updateData.passwordHash = await bcrypt.hash(updateData.password, 10);
+      delete updateData.password;
+    }
+    
+    if (updateData.provinceId) updateData.provinceId = new ObjectId(updateData.provinceId);
+    if (updateData.districtId) updateData.districtId = new ObjectId(updateData.districtId);
+    
+    const result = await collection.updateOne(
+      { _id: new ObjectId(id) },
+      { $set: { ...updateData, updatedAt: new Date() } }
+    );
+    return result.modifiedCount > 0;
+  }
+  
+  static async delete(id) {
+    const collection = this.getCollection();
+    // Soft delete by deactivating
+    const result = await collection.updateOne(
+      { _id: new ObjectId(id) },
+      { $set: { isActive: false, updatedAt: new Date() } }
+    );
+    return result.modifiedCount > 0;
+  }
 }
 
 module.exports = UserModel;

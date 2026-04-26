@@ -103,3 +103,45 @@
 {"level":"info","message":"POST /api/locations - ::1","timestamp":"2026-04-25T16:25:20.485Z"}
 {"level":"info","message":"GET /api/locations/history - ::1","timestamp":"2026-04-25T16:25:55.541Z"}
 {"level":"info","message":"GET /api/metadata/provinces - ::1","timestamp":"2026-04-25T16:26:02.334Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-04-26T14:56:05.330Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-04-26T14:56:05.338Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-04-26T14:56:05.351Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-04-26T14:56:05.352Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-04-26T14:56:05.354Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-04-26T14:56:57.600Z"}
+{"level":"info","message":"GET /api-docs - ::1","timestamp":"2026-04-26T14:56:57.897Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-04-26T14:56:57.949Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-04-26T14:56:58.209Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-04-26T14:56:58.253Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-04-26T14:56:58.295Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-04-26T14:56:58.303Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-04-26T14:56:59.862Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-04-26T14:59:24.525Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-04-26T14:59:24.534Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-04-26T14:59:24.543Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-04-26T14:59:24.544Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-04-26T14:59:24.545Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-04-26T15:01:52.976Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-04-26T15:05:15.340Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-04-26T15:05:15.686Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-04-26T15:05:15.703Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-04-26T15:05:15.711Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-04-26T15:05:15.724Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-04-26T15:09:26.117Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-04-26T15:09:26.127Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-04-26T15:09:26.136Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-04-26T15:09:26.137Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-04-26T15:09:26.137Z"}
+{"level":"info","message":"GET /api-docs/swagger.json - ::1","timestamp":"2026-04-26T15:11:40.804Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-04-26T15:11:41.152Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-04-26T15:11:41.174Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-04-26T15:11:41.188Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-04-26T15:11:41.190Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-04-26T15:53:18.787Z"}
+{"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-04-26T15:54:39.413Z"}
+{"level":"info","message":"GET /api/users - ::1","timestamp":"2026-04-26T15:55:14.580Z"}
+{"level":"info","message":"GET /api/locations/live - ::1","timestamp":"2026-04-26T15:56:30.293Z"}
+{"level":"info","message":"GET /api/metadata/provinces - ::1","timestamp":"2026-04-26T15:56:48.624Z"}
+{"level":"info","message":"GET /api/metadata/districts - ::1","timestamp":"2026-04-26T15:57:00.672Z"}
+{"level":"info","message":"GET /api/metadata/police-stations - ::1","timestamp":"2026-04-26T15:57:12.422Z"}
+{"level":"info","message":"GET /api/metadata/police-stations - ::1","timestamp":"2026-04-26T15:57:18.654Z"}

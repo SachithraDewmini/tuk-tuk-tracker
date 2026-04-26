@@ -9,6 +9,7 @@ const authRoutes = require('./src/routes/auth.routes');
 const vehicleRoutes = require('./src/routes/vehicle.routes');
 const locationRoutes = require('./src/routes/location.routes');
 const metadataRoutes = require('./src/routes/metadata.routes');
+const userRoutes = require('./src/routes/user.routes');
 
 const { errorHandler } = require('./src/middleware/errorHandler');
 const { apiLimiter } = require('./src/middleware/rateLimiter');
@@ -47,7 +48,12 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+
+// Vehicles and related Users
 app.use('/api/vehicles', vehicleRoutes);
+app.use('/api/users', userRoutes);
+
+// Locations and related Metadata
 app.use('/api/locations', locationRoutes);
 app.use('/api/metadata', metadataRoutes);
 

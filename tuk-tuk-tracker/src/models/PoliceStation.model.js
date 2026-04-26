@@ -40,6 +40,26 @@ class PoliceStationModel {
     const result = await collection.insertOne(station);
     return { ...station, _id: result.insertedId };
   }
+
+  static async update(id, stationData) {
+    const collection = this.getCollection();
+    const updateData = { ...stationData };
+    if (updateData.districtId) {
+      updateData.districtId = new ObjectId(updateData.districtId);
+    }
+    
+    const result = await collection.updateOne(
+      { _id: new ObjectId(id) },
+      { $set: { ...updateData, updatedAt: new Date() } }
+    );
+    return result.modifiedCount > 0;
+  }
+  
+  static async delete(id) {
+    const collection = this.getCollection();
+    const result = await collection.deleteOne({ _id: new ObjectId(id) });
+    return result.deletedCount > 0;
+  }
 }
 
 module.exports = PoliceStationModel;
