@@ -1,23 +1,17 @@
 const request = require('supertest');
 const app = require('../../app');
-const { MongoClient } = require('mongodb');
+const { connectDB, closeDB } = require('../../src/config/database');
 const dotenv = require('dotenv');
 
 dotenv.config();
 
 describe('API Integration Tests', () => {
-  let connection;
-  let db;
-
   beforeAll(async () => {
-    // In a real scenario, we would use a separate test database
-    // For this demonstration, we'll connect to the one specified in .env
-    connection = await MongoClient.connect(process.env.MONGODB_URI);
-    db = await connection.db();
+    await connectDB();
   });
 
   afterAll(async () => {
-    await connection.close();
+    await closeDB();
   });
 
   describe('Basic Endpoints', () => {

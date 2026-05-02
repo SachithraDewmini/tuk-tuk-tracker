@@ -6,3 +6,6 @@
 {"level":"error","message":"500 - Invalid credentials - /api/auth/login - POST - ::1","timestamp":"2026-04-25T16:14:53.600Z"}
 {"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:19:01.065Z"}
 {"level":"error","message":"500 - Vehicle not found or inactive - /api/locations - POST - ::1","timestamp":"2026-04-25T16:23:13.637Z"}
+{"level":"error","message":"500 - Database not connected - /api/auth/login - POST - ::ffff:127.0.0.1","timestamp":"2026-05-02T14:18:57.753Z"}
+{"level":"error","message":"500 - Invalid credentials - /api/auth/login - POST - ::ffff:127.0.0.1","timestamp":"2026-05-02T14:19:39.708Z"}
+{"level":"error","message":"401 - Invalid credentials - /api/auth/login - POST - ::ffff:127.0.0.1","timestamp":"2026-05-02T14:20:22.507Z"}

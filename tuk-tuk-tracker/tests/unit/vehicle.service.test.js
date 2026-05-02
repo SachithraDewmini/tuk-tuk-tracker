@@ -81,7 +81,7 @@ describe('VehicleService Unit Tests', () => {
 
     test('should throw error for non-HQ user', async () => {
       await expect(VehicleService.deleteVehicle('v-1', USER_ROLES.STATION))
-        .rejects.toThrow('Only HQ can update vehicles'); // Note: The actual code says 'Only HQ can update vehicles' in deleteVehicle too, likely a copy-paste bug in source but I'll match it or fix if I was asked.
+        .rejects.toThrow('Only HQ can delete vehicles'); // Note: The actual code says 'Only HQ can update vehicles' in deleteVehicle too, likely a copy-paste bug in source but I'll match it or fix if I was asked.
     });
   });
 });
