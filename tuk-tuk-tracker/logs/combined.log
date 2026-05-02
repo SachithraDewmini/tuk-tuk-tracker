@@ -145,3 +145,38 @@
 {"level":"info","message":"GET /api/metadata/districts - ::1","timestamp":"2026-04-26T15:57:00.672Z"}
 {"level":"info","message":"GET /api/metadata/police-stations - ::1","timestamp":"2026-04-26T15:57:12.422Z"}
 {"level":"info","message":"GET /api/metadata/police-stations - ::1","timestamp":"2026-04-26T15:57:18.654Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T12:53:52.621Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T12:53:52.626Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T12:53:52.636Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T12:53:52.636Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T12:53:52.637Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T13:45:18.064Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T13:45:18.084Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:45:18.095Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:45:18.096Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:45:18.097Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T13:45:29.453Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T13:45:29.460Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:45:29.464Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:45:29.465Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:45:29.465Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T13:48:51.658Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T13:48:51.676Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:48:51.699Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:48:51.700Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:48:51.705Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T13:49:00.657Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T13:49:00.672Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:49:00.683Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:49:00.685Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:49:00.686Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T13:49:06.724Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T13:49:06.731Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:49:06.736Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:49:06.736Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:49:06.737Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T13:49:45.811Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T13:49:45.822Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:49:45.828Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:49:45.829Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:49:45.829Z"}

@@ -23,8 +23,8 @@ const { USER_ROLES } = require('../config/constants');
  *       200:
  *         description: List of vehicles
  */
-router.get('/', 
-  authenticate, 
+router.get('/',
+  authenticate,
   VehicleController.getAllVehicles
 );
 
@@ -44,8 +44,8 @@ router.get('/',
  *       200:
  *         description: Vehicle details
  */
-router.get('/:id', 
-  authenticate, 
+router.get('/:id',
+  authenticate,
   VehicleController.getVehicleById
 );
 
@@ -71,8 +71,8 @@ router.get('/:id',
  *       201:
  *         description: Vehicle registered successfully
  */
-router.post('/', 
-  authenticate, 
+router.post('/',
+  authenticate,
   authorize(USER_ROLES.HQ, USER_ROLES.PROVINCIAL, USER_ROLES.STATION),
   validateVehicleCreation,
   VehicleController.registerVehicle
@@ -94,8 +94,8 @@ router.post('/',
  *       200:
  *         description: Vehicle updated successfully
  */
-router.put('/:id', 
-  authenticate, 
+router.put('/:id',
+  authenticate,
   authorize(USER_ROLES.HQ),
   validateVehicleUpdate,
   VehicleController.updateVehicle
@@ -117,8 +117,8 @@ router.put('/:id',
  *       200:
  *         description: Vehicle deactivated successfully
  */
-router.delete('/:id', 
-  authenticate, 
+router.delete('/:id',
+  authenticate,
   authorize(USER_ROLES.HQ),
   VehicleController.deleteVehicle
 );

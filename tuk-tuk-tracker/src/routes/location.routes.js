@@ -26,7 +26,7 @@ const { validateLocationPing } = require('../middleware/validation');
  *       201:
  *         description: Location recorded
  */
-router.post('/', 
+router.post('/',
   validateLocationPing,
   LocationController.recordLocation
 );
@@ -47,8 +47,8 @@ router.post('/',
  *       200:
  *         description: Current location
  */
-router.get('/current/:vehicleId', 
-  authenticate, 
+router.get('/current/:vehicleId',
+  authenticate,
   LocationController.getCurrentLocation
 );
 
@@ -63,8 +63,8 @@ router.get('/current/:vehicleId',
  *       200:
  *         description: Location history
  */
-router.get('/history', 
-  authenticate, 
+router.get('/history',
+  authenticate,
   LocationController.getLocationHistory
 );
 
@@ -79,8 +79,8 @@ router.get('/history',
  *       200:
  *         description: Live locations
  */
-router.get('/live', 
-  authenticate, 
+router.get('/live',
+  authenticate,
   LocationController.getLiveLocations
 );
 
