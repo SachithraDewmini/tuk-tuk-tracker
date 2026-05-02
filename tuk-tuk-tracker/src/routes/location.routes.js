@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const LocationController = require('../controllers/location.controller');
 const { authenticate } = require('../middleware/auth');
-const { validateLocationPing } = require('../middleware/validation');
+const { validateLocationPing } = require('../validators/location.validator');
 
 /**
  * @swagger
