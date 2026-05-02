@@ -28,7 +28,9 @@ const options = {
       { name: 'Vehicles', description: 'Vehicle asset management' },
       { name: 'Users', description: 'User account management (HQ only)' },
       { name: 'Locations', description: 'Real-time tracking and history' },
-      { name: 'Metadata', description: 'Administrative data (Provinces, Districts, Stations)' }
+      { name: 'Provinces', description: 'Province administration' },
+      { name: 'Districts', description: 'District administration' },
+      { name: 'Police Stations', description: 'Police Station administration' }
     ]
   },
   apis: ['./src/routes/*.js'],
