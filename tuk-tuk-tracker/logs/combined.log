@@ -180,3 +180,13 @@
 {"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T13:49:45.828Z"}
 {"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T13:49:45.829Z"}
 {"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T13:49:45.829Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T14:03:33.179Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T14:03:33.190Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T14:03:33.200Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T14:03:33.201Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T14:03:33.202Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-05-02T14:05:57.377Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-05-02T14:05:57.383Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-05-02T14:05:57.387Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-05-02T14:05:57.387Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-05-02T14:05:57.388Z"}
