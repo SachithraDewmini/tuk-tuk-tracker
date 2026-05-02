@@ -8,7 +8,9 @@ const swaggerSpec = require('./src/swagger');
 const authRoutes = require('./src/routes/auth.routes');
 const vehicleRoutes = require('./src/routes/vehicle.routes');
 const locationRoutes = require('./src/routes/location.routes');
-const metadataRoutes = require('./src/routes/metadata.routes');
+const provinceRoutes = require('./src/routes/province.routes');
+const districtRoutes = require('./src/routes/district.routes');
+const policeStationRoutes = require('./src/routes/police-station.routes');
 const userRoutes = require('./src/routes/user.routes');
 
 const { errorHandler } = require('./src/middleware/errorHandler');
@@ -53,9 +55,13 @@ app.use('/api/auth', authRoutes);
 app.use('/api/vehicles', vehicleRoutes);
 app.use('/api/users', userRoutes);
 
-// Locations and related Metadata
+// Locations
 app.use('/api/locations', locationRoutes);
-app.use('/api/metadata', metadataRoutes);
+
+// Metadata split into separate resource routes
+app.use('/api/provinces', provinceRoutes);
+app.use('/api/districts', districtRoutes);
+app.use('/api/police-stations', policeStationRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ 
