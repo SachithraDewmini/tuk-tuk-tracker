@@ -41,7 +41,7 @@ app.get('/health', (req, res) => {
     status: 'OK', 
     timestamp: new Date(),
     uptime: process.uptime(),
-    docs: 'http://localhost:3000/api-docs'
+    docs: `${req.protocol}://${req.get('host')}/api-docs`
   });
 });
 
