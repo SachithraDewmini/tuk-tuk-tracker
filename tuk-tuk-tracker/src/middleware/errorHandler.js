@@ -1,4 +1,5 @@
 const logger = require('../utils/logger');
+const ApiError = require('../utils/ApiError');
 
 /**
  * Global Error Handler Middleware
@@ -12,15 +13,17 @@ const errorHandler = (err, req, res, next) => {
     statusCode = 401;
   } else if (err.message === 'Access denied' || err.message === 'Account disabled') {
     statusCode = 403;
-  } else if (err.message.includes('not found')) {
+  } else if (err.message && err.message.includes('not found')) {
     statusCode = 404;
   } else if (err.code === 11000) {
     statusCode = 409; // Conflict/Duplicate
   } else if (
-    err.message.includes('invalid') || 
-    err.message.includes('required') || 
-    err.message.includes('outside') ||
-    err.message.includes('Cannot register')
+    err.message && (
+      err.message.includes('invalid') || 
+      err.message.includes('required') || 
+      err.message.includes('outside') ||
+      err.message.includes('Cannot register')
+    )
   ) {
     statusCode = 400;
   }
@@ -31,7 +34,9 @@ const errorHandler = (err, req, res, next) => {
   // Response body
   const errorResponse = {
     success: false,
-    error: err.message || 'Internal server error'
+    message: err.message || 'Internal server error',
+    errors: err.errors || [],
+    data: null
   };
 
   // Include stack trace in development
@@ -41,8 +46,8 @@ const errorHandler = (err, req, res, next) => {
 
   // Handle MongoDB duplicate key specially
   if (err.code === 11000) {
-    errorResponse.error = 'Duplicate entry detected';
-    errorResponse.field = Object.keys(err.keyPattern)[0];
+    errorResponse.message = 'Duplicate entry detected';
+    errorResponse.errors = [Object.keys(err.keyPattern)[0]];
   }
 
   res.status(statusCode).json(errorResponse);
