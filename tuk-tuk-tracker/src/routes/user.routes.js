@@ -35,6 +35,11 @@ router.get('/', UserController.getAllUsers);
  *     summary: Get user by ID
  *     tags: [Users]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
  *     responses:
  *       200:
  *         description: User details
@@ -48,6 +53,20 @@ router.get('/:id', UserController.getUserById);
  *     summary: Create a new user
  *     tags: [Users]
  *     security: [{ bearerAuth: [] }]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [username, password, name, role]
+ *             properties:
+ *               username: { type: string }
+ *               password: { type: string }
+ *               name: { type: string }
+ *               role: { type: string, enum: [HQ, PROVINCIAL, STATION] }
+ *               provinceId: { type: string }
+ *               districtId: { type: string }
  *     responses:
  *       201:
  *         description: User created
@@ -61,6 +80,21 @@ router.post('/', validateUserCreation, UserController.createUser);
  *     summary: Update user
  *     tags: [Users]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               name: { type: string }
+ *               password: { type: string }
+ *               isActive: { type: boolean }
  *     responses:
  *       200:
  *         description: User updated
@@ -74,6 +108,11 @@ router.put('/:id', validateUserUpdate, UserController.updateUser);
  *     summary: Deactivate user
  *     tags: [Users]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
  *     responses:
  *       200:
  *         description: User deactivated

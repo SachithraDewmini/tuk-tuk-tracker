@@ -35,6 +35,18 @@ router.get('/',
  *     summary: Create a police station
  *     tags: [Police Stations]
  *     security: [{ bearerAuth: [] }]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [name, districtId]
+ *             properties:
+ *               name: { type: string }
+ *               districtId: { type: string }
+ *               phone: { type: string }
+ *               address: { type: string }
  *     responses:
  *       201:
  *         description: Police station created
@@ -53,6 +65,23 @@ router.post('/',
  *     summary: Update a police station
  *     tags: [Police Stations]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [name, districtId]
+ *             properties:
+ *               name: { type: string }
+ *               districtId: { type: string }
+ *               phone: { type: string }
+ *               address: { type: string }
  *     responses:
  *       200:
  *         description: Police station updated
@@ -71,6 +100,11 @@ router.put('/:id',
  *     summary: Delete a police station
  *     tags: [Police Stations]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
  *     responses:
  *       200:
  *         description: Police station deleted

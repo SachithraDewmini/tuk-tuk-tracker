@@ -35,6 +35,16 @@ router.get('/',
  *     summary: Create a district
  *     tags: [Districts]
  *     security: [{ bearerAuth: [] }]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [name, provinceId]
+ *             properties:
+ *               name: { type: string }
+ *               provinceId: { type: string }
  *     responses:
  *       201:
  *         description: District created
@@ -53,6 +63,21 @@ router.post('/',
  *     summary: Update a district
  *     tags: [Districts]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [name, provinceId]
+ *             properties:
+ *               name: { type: string }
+ *               provinceId: { type: string }
  *     responses:
  *       200:
  *         description: District updated
@@ -71,6 +96,11 @@ router.put('/:id',
  *     summary: Delete a district
  *     tags: [Districts]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
  *     responses:
  *       200:
  *         description: District deleted

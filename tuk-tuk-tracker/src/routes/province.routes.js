@@ -35,6 +35,15 @@ router.get('/',
  *     summary: Create a province
  *     tags: [Provinces]
  *     security: [{ bearerAuth: [] }]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [name]
+ *             properties:
+ *               name: { type: string }
  *     responses:
  *       201:
  *         description: Province created
@@ -53,6 +62,20 @@ router.post('/',
  *     summary: Update a province
  *     tags: [Provinces]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [name]
+ *             properties:
+ *               name: { type: string }
  *     responses:
  *       200:
  *         description: Province updated
@@ -71,6 +94,11 @@ router.put('/:id',
  *     summary: Delete a province
  *     tags: [Provinces]
  *     security: [{ bearerAuth: [] }]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema: { type: string }
  *     responses:
  *       200:
  *         description: Province deleted

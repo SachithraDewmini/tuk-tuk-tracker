@@ -330,3 +330,60 @@
 {"level":"info","message":"GET /api/locations/live - ::1","timestamp":"2026-05-27T04:33:34.048Z"}
 {"level":"info","message":"POST /api/locations - ::1","timestamp":"2026-05-27T04:33:34.850Z"}
 {"level":"info","message":"GET /api/locations/history - ::1","timestamp":"2026-05-27T04:33:35.448Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T04:13:16.012Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T04:13:16.023Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T04:13:16.035Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T04:13:16.055Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T04:13:16.056Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-06T04:13:35.518Z"}
+{"level":"info","message":"GET /api-docs - ::1","timestamp":"2026-10-06T04:13:35.532Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T04:13:35.538Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T04:13:35.730Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T04:13:35.734Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T04:13:35.735Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T04:13:35.736Z"}
+{"level":"info","message":"GET /api-docs/favicon-16x16.png - ::1","timestamp":"2026-10-06T04:13:36.599Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-06T04:13:50.196Z"}
+{"level":"info","message":"GET /api-docs - ::1","timestamp":"2026-10-06T04:13:50.208Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T04:13:50.222Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T04:13:50.375Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T04:13:50.378Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T04:13:50.381Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T04:13:50.382Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-06T04:13:50.748Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-06T04:15:29.631Z"}
+{"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-10-06T04:18:04.008Z"}
+{"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-10-06T04:18:50.237Z"}
+{"level":"info","message":"GET /api/users - ::1","timestamp":"2026-10-06T04:19:20.927Z"}
+{"level":"info","message":"GET /api/districts - ::1","timestamp":"2026-10-06T04:19:33.605Z"}
+{"level":"info","message":"GET /api/police-stations - ::1","timestamp":"2026-10-06T04:19:47.373Z"}
+{"level":"info","message":"PUT /api/users/%7Bid%7D - ::1","timestamp":"2026-10-06T04:20:59.098Z"}
+{"level":"error","message":"500 - input must be a 24 character hex string, 12 byte Uint8Array, or an integer - /api/users/%7Bid%7D - PUT - ::1","timestamp":"2026-10-06T04:20:59.238Z"}
+{"level":"info","message":"PUT /api/vehicles/6a144ee8198ecf93eb32f6ed - ::1","timestamp":"2026-10-06T04:22:25.317Z"}
+{"level":"error","message":"500 - Cannot read properties of undefined (reading 'districtId') - /api/vehicles/6a144ee8198ecf93eb32f6ed - PUT - ::1","timestamp":"2026-10-06T04:22:25.407Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T04:37:17.936Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T04:37:17.990Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T04:37:17.994Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T04:37:17.999Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T04:37:18.009Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-06T04:37:18.367Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-06T04:37:50.812Z"}
+{"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-10-06T04:38:38.838Z"}
+{"level":"info","message":"POST /api/vehicles - ::1","timestamp":"2026-10-06T04:40:42.597Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T04:43:48.870Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T04:43:48.931Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T04:43:48.938Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T04:43:48.952Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T04:43:48.955Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-06T04:43:49.237Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-06T04:44:21.482Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T04:45:28.751Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T04:45:28.764Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T04:45:28.772Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T04:45:28.775Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T04:45:28.777Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T04:46:54.975Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T04:46:54.982Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T04:46:54.993Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T04:46:54.994Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T04:46:54.994Z"}
