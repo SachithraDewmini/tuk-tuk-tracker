@@ -62,11 +62,14 @@ router.get('/:id',
  *         application/json:
  *           schema:
  *             type: object
- *             required: [registrationNumber, deviceId, districtId]
+ *             required: [registrationNumber, deviceId, districtId, ownerName]
  *             properties:
  *               registrationNumber: { type: string }
  *               deviceId: { type: string }
  *               districtId: { type: string }
+ *               ownerName: { type: string }
+ *               ownerNic: { type: string }
+ *               ownerPhone: { type: string }
  *     responses:
  *       201:
  *         description: Vehicle registered successfully
