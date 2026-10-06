@@ -32,10 +32,27 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 // Data sanitization against NoSQL Query Injection
-app.use(mongoSanitize());
+app.use((req, res, next) => {
+  ['body', 'params', 'headers', 'query'].forEach((key) => {
+    if (req[key]) {
+      mongoSanitize.sanitize(req[key]);
+    }
+  });
+  next();
+});
 
 // Data sanitization against Cross-Site Scripting (XSS)
-app.use(xss());
+const { clean } = require('xss-clean/lib/xss');
+app.use((req, res, next) => {
+  ['body', 'params', 'query'].forEach((key) => {
+    if (req[key]) {
+      const cleaned = clean(req[key]);
+      for (const k in req[key]) delete req[key][k];
+      Object.assign(req[key], cleaned);
+    }
+  });
+  next();
+});
 
 // Compress responses for better performance
 app.use(compression());

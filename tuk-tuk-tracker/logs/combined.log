@@ -387,3 +387,109 @@
 {"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T04:46:54.993Z"}
 {"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T04:46:54.994Z"}
 {"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T04:46:54.994Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:12:37.490Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:12:37.506Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:12:37.513Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:12:37.514Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:12:37.520Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:13:02.023Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:13:02.028Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:13:02.032Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:13:02.033Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:13:02.034Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:13:55.408Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:13:55.411Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:13:55.416Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:13:55.417Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:13:55.418Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:15:05.826Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:15:05.836Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:15:05.844Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:15:05.845Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:15:05.847Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:15:26.298Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:15:26.303Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:15:26.307Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:15:26.307Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:15:26.308Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:16:01.239Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:16:01.249Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:16:01.255Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:16:01.256Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:16:01.258Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:17:24.499Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:17:24.501Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:17:24.502Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:17:24.502Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:17:24.503Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:17:53.813Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:17:53.808Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:17:53.813Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:17:53.818Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:17:53.819Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:17:53.819Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:17:53.821Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:17:53.826Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:17:53.827Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:17:53.828Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:19:31.768Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:19:31.774Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:19:31.778Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:19:31.779Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:19:31.779Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:21:43.656Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:21:43.660Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:21:43.665Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:21:43.665Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:21:43.665Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:22:03.209Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:22:03.215Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:22:03.221Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:22:03.221Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:22:03.222Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:22:03.435Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:22:03.439Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:22:03.443Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:22:03.443Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:22:03.444Z"}
+{"level":"error","message":"500 - Cannot set property query of #<IncomingMessage> which has only a getter - / - GET - ::1","timestamp":"2026-10-06T10:22:04.857Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:23:11.784Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:23:11.790Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:23:11.792Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:23:11.793Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:23:11.793Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:23:11.790Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:23:11.795Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:23:11.801Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:23:11.801Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:23:11.802Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:23:37.926Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:23:37.930Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:23:37.935Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:23:37.936Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:23:37.936Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-06T10:23:37.933Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-06T10:23:37.938Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-06T10:23:37.943Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-06T10:23:37.944Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-06T10:23:37.945Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-06T10:23:39.683Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T10:23:39.714Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T10:23:39.809Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T10:23:39.812Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T10:23:39.815Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T10:23:39.819Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-06T10:24:02.838Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T10:24:02.888Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T10:24:03.041Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T10:24:03.049Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T10:24:03.056Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T10:24:03.062Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-06T10:24:03.572Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-06T10:24:03.587Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-06T10:24:03.634Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-06T10:24:03.635Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-06T10:24:03.636Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T10:24:03.639Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-06T10:24:03.860Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-06T10:24:27.595Z"}
