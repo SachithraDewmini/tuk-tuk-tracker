@@ -54,6 +54,7 @@ class VehicleModel {
   }
   
   static async updateById(id, updateData) {
+    if (!updateData) updateData = {};
     const collection = this.getCollection();
     const update = {
       ...updateData,
