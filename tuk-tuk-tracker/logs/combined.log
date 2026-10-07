@@ -493,3 +493,29 @@
 {"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-06T10:24:03.639Z"}
 {"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-06T10:24:03.860Z"}
 {"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-06T10:24:27.595Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-07T09:03:12.147Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-07T09:03:12.165Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-07T09:03:12.186Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-07T09:03:12.191Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-07T09:03:12.196Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-07T09:03:12.199Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-07T09:03:51.594Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-07T09:03:51.599Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-07T09:03:51.607Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-07T09:03:51.609Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-07T09:03:51.609Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-07T09:03:51.610Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-07T09:04:05.339Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-07T09:04:05.363Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-07T09:04:05.721Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-07T09:04:05.732Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-07T09:04:05.737Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-07T09:04:05.741Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-07T09:04:06.281Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-07T09:04:06.317Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-07T09:04:06.381Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-07T09:04:06.383Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-07T09:04:06.385Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-07T09:04:06.396Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-07T09:04:39.624Z"}
+{"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-10-07T09:05:14.557Z"}
