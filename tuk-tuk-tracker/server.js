@@ -1,6 +1,7 @@
 const app = require('./app');
 const { connectDB } = require('./src/config/database');
 const logger = require('./src/utils/logger');
+const WebSocketService = require('./src/services/websocket.service');
 
 const PORT = process.env.PORT || 3000;
 
@@ -15,6 +16,9 @@ async function startServer() {
       logger.info(`📝 Environment: ${process.env.NODE_ENV}`);
       logger.info(`🔗 API URL: http://localhost:${PORT}`);
     });
+
+    // Initialize WebSocket server
+    WebSocketService.init(server);
   } catch (error) {
     logger.error('Failed to start server:', error);
     process.exit(1);

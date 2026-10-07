@@ -3,6 +3,7 @@ const LocationPingModel = require('../models/LocationPing.model');
 const DistrictModel = require('../models/District.model');
 const ProvinceModel = require('../models/Province.model');
 const { USER_ROLES, TIME_CONSTANTS } = require('../config/constants');
+const WebSocketService = require('./websocket.service');
 
 class LocationService {
   static async recordLocation(deviceId, locationData) {
@@ -36,6 +37,17 @@ class LocationService {
       speed: locationData.speed || 0,
       direction: locationData.direction || 0
     });
+    
+    // Broadcast via WebSocket
+    const district = await DistrictModel.findById(vehicle.districtId);
+    if (district) {
+      WebSocketService.broadcastLocation(
+        vehicle, 
+        ping, 
+        vehicle.districtId.toString(), 
+        district.provinceId.toString()
+      );
+    }
     
     return ping;
   }
