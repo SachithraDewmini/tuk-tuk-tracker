@@ -65,12 +65,16 @@ class VehicleModel {
       update.districtId = new ObjectId(updateData.districtId);
     }
     
-    const result = await collection.updateOne(
+    // Remove _id from update to prevent MongoDB error if it was passed
+    delete update._id;
+    
+    const result = await collection.findOneAndUpdate(
       { _id: new ObjectId(id) },
-      { $set: update }
+      { $set: update },
+      { returnDocument: 'after' }
     );
     
-    return result.modifiedCount > 0;
+    return result;
   }
   
   static async updateCurrentLocation(vehicleId, locationData) {

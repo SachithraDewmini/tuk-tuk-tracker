@@ -84,11 +84,12 @@ class VehicleController {
       const updateData = req.body;
       const { role } = req.user;
       
-      await VehicleService.updateVehicle(id, updateData, role);
+      const updatedVehicle = await VehicleService.updateVehicle(id, updateData, role);
       
       res.json({
         success: true,
-        message: 'Vehicle updated successfully'
+        message: 'Vehicle updated successfully',
+        data: updatedVehicle
       });
     } catch (error) {
       next(error);

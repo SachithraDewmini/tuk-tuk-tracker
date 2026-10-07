@@ -108,7 +108,7 @@ class VehicleService {
       throw new Error('Vehicle not found or update failed');
     }
     
-    return true;
+    return updated;
   }
   
   static async deleteVehicle(vehicleId, userRole) {
