@@ -80,6 +80,11 @@ app.get('/', (req, res) => {
   res.redirect('/api-docs');
 });
 
+const path = require('path');
+app.get('/dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'live-dashboard.html'));
+});
+
 app.use('/api/auth', authRoutes);
 
 // Vehicles and related Users

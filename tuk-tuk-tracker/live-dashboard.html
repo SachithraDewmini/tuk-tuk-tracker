@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Tracking Dashboard</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #e9ecef; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto;}
+        .log { background: #1e1e1e; color: #4af626; padding: 15px; height: 300px; overflow-y: scroll; font-family: monospace; border-radius: 4px; margin-top: 20px; line-height: 1.5;}
+        button { padding: 10px 15px; background: #0056b3; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; margin-top: 10px;}
+        button:hover { background: #004494; }
+        input { padding: 10px; width: calc(100% - 22px); margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px;}
+        .badge { background: #28a745; color: white; padding: 3px 8px; border-radius: 12px; font-size: 12px;}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>🚓 Police Live Dashboard <span class="badge">WebSocket</span></h2>
+        <p>Login with your HQ credentials to connect to the live streaming WebSocket.</p>
+        
+        <input type="text" id="username" placeholder="Username (e.g. hq_admin)" value="hq_admin">
+        <input type="password" id="password" placeholder="Password (e.g. Admin@123)" value="Admin@123">
+        <button onclick="connectAndListen()">Connect to Live Stream</button>
+        
+        <div class="log" id="logBox">Waiting for connection...<br></div>
+    </div>
+
+    <script>
+        // Automatically detects if you are on localhost or Railway!
+        const API_URL = window.location.origin; 
+        let socket;
+
+        function log(msg) {
+            const box = document.getElementById('logBox');
+            box.innerHTML += `> ${msg}<br>`;
+            box.scrollTop = box.scrollHeight;
+        }
+
+        async function connectAndListen() {
+            const user = document.getElementById('username').value;
+            const pass = document.getElementById('password').value;
+            
+            log(`Authenticating ${user} with API...`);
+            
+            try {
+                // 1. Get the JWT Token by logging in via standard REST HTTP
+                const res = await fetch(`${API_URL}/api/auth/login`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username: user, password: pass })
+                });
+                const data = await res.json();
+                
+                if(!data.token) {
+                    log('❌ Error: Invalid credentials');
+                    return;
+                }
+                
+                log(`✅ Success! JWT Token received. Connecting WebSocket...`);
+                
+                // 2. Connect the WebSocket using the Token
+                socket = io(API_URL, {
+                    auth: { token: data.token }
+                });
+
+                // 3. Listen for connection success
+                socket.on('connect', () => {
+                    log('🟢 WebSocket Connected! Listening for Tuk-Tuk GPS pings...');
+                    log('--------------------------------------------------');
+                });
+
+                // 4. Listen for the 'location_update' event pushed from the server!
+                socket.on('location_update', (data) => {
+                    const time = new Date(data.timestamp).toLocaleTimeString();
+                    log(`[${time}] 📍 UPDATE [${data.registrationNumber}]: Lat ${data.location.lat.toFixed(4)}, Lng ${data.location.lng.toFixed(4)} (${data.location.speed} km/h)`);
+                });
+
+                socket.on('connect_error', (err) => {
+                    log(`🔴 Connection Error: ${err.message}`);
+                });
+                
+            } catch (err) {
+                log(`❌ Error: ${err.message}`);
+                log(`Make sure your server is running on ${API_URL}`);
+            }
+        }
+    </script>
+</body>
+</html>

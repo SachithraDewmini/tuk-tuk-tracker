@@ -519,3 +519,79 @@
 {"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-07T09:04:06.396Z"}
 {"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-07T09:04:39.624Z"}
 {"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-10-07T09:05:14.557Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T03:58:01.029Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T03:58:01.040Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T03:58:01.056Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T03:58:01.058Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T03:58:01.059Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T03:58:01.060Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-09T03:59:29.001Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-09T03:59:29.093Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T03:59:29.305Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T03:59:29.312Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T03:59:29.340Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T03:59:29.353Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-09T03:59:29.906Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-09T03:59:29.968Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T03:59:30.214Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T03:59:30.237Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T03:59:30.246Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T03:59:30.253Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-09T03:59:55.241Z"}
+{"level":"info","message":"GET /api/vehicles - ::1","timestamp":"2026-10-09T04:00:46.458Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-09T04:04:29.571Z"}
+{"level":"info","message":"WebSocket connected: User hq_admin (Role: HQ)","timestamp":"2026-10-09T04:04:30.414Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-09T04:04:39.130Z"}
+{"level":"info","message":"WebSocket connected: User hq_admin (Role: HQ)","timestamp":"2026-10-09T04:04:39.774Z"}
+{"level":"info","message":"GET /api/police-stations - ::1","timestamp":"2026-10-09T04:05:41.494Z"}
+{"level":"info","message":"GET /api-docs/live-dashbord.tml - ::1","timestamp":"2026-10-09T04:06:30.193Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T04:06:30.267Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T04:06:30.277Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T04:06:30.281Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T04:06:30.284Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T04:07:30.876Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T04:07:30.886Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T04:07:30.916Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T04:07:30.919Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T04:07:30.920Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T04:07:30.921Z"}
+{"level":"info","message":"WebSocket connected: User hq_admin (Role: HQ)","timestamp":"2026-10-09T04:07:32.621Z"}
+{"level":"info","message":"WebSocket connected: User hq_admin (Role: HQ)","timestamp":"2026-10-09T04:07:33.545Z"}
+{"level":"info","message":"GET /dashboard - ::1","timestamp":"2026-10-09T04:07:44.206Z"}
+{"level":"info","message":"GET /api-docs/live-dashbord.tml - ::1","timestamp":"2026-10-09T04:08:14.160Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T04:08:14.218Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T04:08:14.229Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T04:08:14.235Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T04:08:14.238Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-09T04:08:14.592Z"}
+{"level":"info","message":"GET /api-docs/live-dashbord.tml - ::1","timestamp":"2026-10-09T04:08:17.998Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T04:08:18.064Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T04:08:18.082Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T04:08:18.100Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T04:08:18.105Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png - ::1","timestamp":"2026-10-09T04:08:18.455Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-09T04:08:23.778Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T04:08:23.843Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T04:08:23.848Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T04:08:23.850Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T04:08:23.853Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T04:09:30.667Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T04:09:30.676Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T04:09:30.690Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T04:09:30.694Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T04:09:30.703Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T04:09:30.706Z"}
+{"level":"info","message":"WebSocket connected: User hq_admin (Role: HQ)","timestamp":"2026-10-09T04:09:32.715Z"}
+{"level":"info","message":"WebSocket connected: User hq_admin (Role: HQ)","timestamp":"2026-10-09T04:09:36.489Z"}
+{"level":"info","message":"GET / - ::1","timestamp":"2026-10-09T04:11:06.777Z"}
+{"level":"info","message":"GET /api-docs/ - ::1","timestamp":"2026-10-09T04:11:06.840Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css - ::1","timestamp":"2026-10-09T04:11:07.065Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js - ::1","timestamp":"2026-10-09T04:11:07.078Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js - ::1","timestamp":"2026-10-09T04:11:07.083Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js - ::1","timestamp":"2026-10-09T04:11:07.101Z"}
+{"level":"info","message":"POST /api/auth/login - ::1","timestamp":"2026-10-09T04:11:44.188Z"}
+{"level":"info","message":"GET /api/police-stations - ::1","timestamp":"2026-10-09T04:12:26.897Z"}
+{"level":"info","message":"GET /dashboard - ::1","timestamp":"2026-10-09T04:13:00.214Z"}
+{"level":"info","message":"WebSocket disconnected: User hq_admin","timestamp":"2026-10-09T04:13:05.966Z"}
+{"level":"info","message":"WebSocket disconnected: User hq_admin","timestamp":"2026-10-09T04:13:05.970Z"}
+{"level":"info","message":"GET /dashboard - ::1","timestamp":"2026-10-09T04:13:34.728Z"}
