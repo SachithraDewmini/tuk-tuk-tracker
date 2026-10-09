@@ -40,14 +40,12 @@ class LocationService {
     
     // Broadcast via WebSocket
     const district = await DistrictModel.findById(vehicle.districtId);
-    if (district) {
-      WebSocketService.broadcastLocation(
-        vehicle, 
-        ping, 
-        vehicle.districtId.toString(), 
-        district.provinceId.toString()
-      );
-    }
+    WebSocketService.broadcastLocation(
+      vehicle, 
+      ping, 
+      vehicle.districtId ? vehicle.districtId.toString() : null, 
+      district ? district.provinceId.toString() : null
+    );
     
     return ping;
   }
