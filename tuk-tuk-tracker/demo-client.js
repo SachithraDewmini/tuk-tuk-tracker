@@ -8,7 +8,7 @@
  * 4. Get location history for a specific vehicle
  */
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://tuk-tuk-tracker-production.up.railway.app/api-docs';
 
 async function runDemo() {
   console.log('🚀 Starting API Demonstration...\n');
@@ -31,7 +31,7 @@ async function runDemo() {
     const liveRes = await fetch(`${API_URL}/locations/live`, { headers: authHeader });
     const liveData = await liveRes.json();
     console.log(`✅ Received live data for ${liveData.count} vehicles.`);
-    
+
     const sampleVehicle = liveData.data[0];
     console.log(`   Sample Vehicle: ${sampleVehicle.registrationNumber} (Device: ${sampleVehicle.vehicleId})\n`);
 

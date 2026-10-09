@@ -721,3 +721,39 @@
 {"level":"info","message":"WebSocket disconnected: User hq_admin","timestamp":"2026-10-09T05:22:34.013Z"}
 {"level":"info","message":"GET /api/provinces - ::1","timestamp":"2026-10-09T05:22:35.530Z"}
 {"level":"info","message":"GET /api/police-stations - ::1","timestamp":"2026-10-09T05:22:47.426Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T05:33:20.297Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T05:33:20.307Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T05:33:20.325Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T05:33:20.327Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T05:33:20.328Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T05:33:20.330Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T05:34:28.096Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T05:34:28.101Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T05:34:28.109Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T05:34:28.110Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T05:34:28.112Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T05:34:28.112Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T05:34:45.676Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T05:34:45.679Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T05:34:45.691Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T05:34:45.692Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T05:34:45.692Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T05:34:45.693Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T05:34:47.758Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T05:34:47.761Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T05:34:47.765Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T05:34:47.766Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T05:34:47.767Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T05:34:47.768Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T05:35:43.982Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T05:35:43.987Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T05:35:43.991Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T05:35:43.992Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T05:35:43.992Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T05:35:43.993Z"}
+{"level":"info","message":"✅ Database indexes created","timestamp":"2026-10-09T05:35:56.150Z"}
+{"level":"info","message":"✅ MongoDB connected successfully","timestamp":"2026-10-09T05:35:56.155Z"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"2026-10-09T05:35:56.163Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-10-09T05:35:56.165Z"}
+{"level":"info","message":"📝 Environment: development","timestamp":"2026-10-09T05:35:56.167Z"}
+{"level":"info","message":"🔗 API URL: http://localhost:3000","timestamp":"2026-10-09T05:35:56.170Z"}
